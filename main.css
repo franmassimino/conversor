@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: 'roboto';
+}
+
+.container{
+    text-align: center;
+    margin: 20vh 0;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.intro{
+    font-weight: 300;
+    margin-bottom: 3em;
+    font-size: 1.25em;
+    color: rgb(155, 155, 155);
+}
+
+p{
+    font-family: 'open sans';
+}
+
+input{
+    all: unset;
+    text-align: left;
+    width: 500px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: white;
+    font-weight: 300;
+}
+
+button{
+    all: unset;
+    background: rgba(255, 255, 255, 0.2);
+    height: 50px;
+    width: 90px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: all .3s ease;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+
+.resultado{
+    margin-top: 1.5em;
+    font-size: 2em;
+    color: rgb(107, 197, 107);
+}
+
+p.error{
+    color: rgb(204, 70, 70);
+    font-size: 1.5em;
+}
+
+.mode{
+    position: absolute;
+    top: 1.5em;
+    right: 2.5em;
+}
