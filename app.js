@@ -21,9 +21,6 @@ let convertir = pesoEnLbs => {
     resultado.innerHTML = (conversion + " kg")
 }
 
-cambiarModo.addEventListener('click', () => {
-    console.log(1323)
-})
 
 
 
